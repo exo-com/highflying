@@ -1,5 +1,7 @@
 package com.highflying.project.service.impl;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
@@ -21,5 +23,11 @@ public class BoardService implements IBoardService{
 	@Override
 	public void setBoardDto(BoardDto bDto){
 		boardDao.setBoardDto(bDto);
+	}
+
+	@Override
+	public List<BoardDto> qnaList() {
+		// TODO Auto-generated method stub
+		return boardDao.qnaList();
 	}
 }

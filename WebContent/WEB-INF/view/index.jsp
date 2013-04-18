@@ -25,7 +25,7 @@
 				<li class="nav">
 					<div class="phone-info">
 						<h2>Mobile & Smart Phone</h2>
-						<h4>New Product <i class="icon-hand-right"></i> iPhone</h4>
+						<h4>New Product <i class="icon-hand-right"></i> Galaxy Serise</h4>
 						<a href="detail.do"><button type="button" class="btn btn-primary">Detail</button></a>
 					</div>
 					<div class="phone-image"><img src="./img/galaxy-SIII.png"/></div>
@@ -62,24 +62,26 @@
 				</section>
 			</div>
 			<div class="line_clear"></div>
-			<section id ="section_left" class="customerLeft">
-				<div class="inner">
-					<h4>Our Galaxy Smartphones</h4>
-					<p>Experience the premium entertainment and innovative features that make Galaxy monile devices truly brilliant.</p>
-				</div>
-				<div class="logo">
-					<a href="#">more<i class=" icon-chevron-right"></i><i class=" icon-chevron-right"></i></a>
-				</div>
-			</section>
-			<section id="section_right" class="customerRight">
-				<div class="inner">
-					<h4>Why you'll love an iPhone.</h4>
-					<p>iPhone owners love their iPhone. And not just because of the Retina display. Or the amazing camera. Or the long battery life. It's all those things plus the fact that iPhone is just so easy to use.</p>
-				</div>
-				<div class="logo">
-					<a href="#">more<i class=" icon-chevron-right"></i><i class=" icon-chevron-right"></i></a>
-				</div>
-			</section>
+			<div id="sectionColumes">
+				<section id ="section_left" class="customerLeft">
+					<div class="inner">
+						<h4>Our Galaxy Smartphones</h4>
+						<p>Experience the premium entertainment and innovative features that make Galaxy monile devices truly brilliant.</p>
+					</div>
+					<div class="logo">
+						<a href="#">more<i class=" icon-chevron-right"></i><i class=" icon-chevron-right"></i></a>
+					</div>
+				</section>
+				<section id="section_right" class="customerRight">
+					<div class="inner">
+						<h4>Why you'll love an iPhone.</h4>
+						<p>iPhone owners love their iPhone. And not just because of the Retina display. Or the amazing camera. Or the long battery life. It's all those things plus the fact that iPhone is just so easy to use.</p>
+					</div>
+					<div class="logo">
+						<a href="#">more<i class=" icon-chevron-right"></i><i class=" icon-chevron-right"></i></a>
+					</div>
+				</section>
+			</div>
 		</div>
 		<div class="line_clear"></div>
 	</div>

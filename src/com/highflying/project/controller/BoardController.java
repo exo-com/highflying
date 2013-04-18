@@ -18,6 +18,8 @@ public class BoardController {
 	@RequestMapping(value = "qna_board.do")
 	public ModelAndView board2(){
 		mav = new ModelAndView();
+		mav.addObject("qnaList", boardService.qnaList());
+		
 		mav.setViewName("./board/board_qna");
 		return mav;
 	}

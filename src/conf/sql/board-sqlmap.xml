@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+    
+<sqlMap namespace="boardSql">
+	<select id="qnaList" resultClass="com.highflying.dto.BoardDto">
+		select
+			no, boardtitle, name, createdate
+		from board1 order by no desc
+	</select>
+</sqlMap>

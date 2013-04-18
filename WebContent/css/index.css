@@ -18,12 +18,19 @@
 	}
 }
 #featureColumes{
-	margin: 0 40px 0 0;
+	margin: 0 auto;
+	width:800px;
+	
+	
 }
 #featureColumes section{
 	float: left;
 	width: 200px;
 	display: block;
+}
+#sectionColumes{
+	margin : 0 auto;
+	width:844px;
 }
 .section-img{
 	width: 150px;

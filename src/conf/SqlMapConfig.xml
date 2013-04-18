@@ -13,5 +13,6 @@
 		defaultStatementTimeout="100"/>
     
     <sqlMap resource="conf/sql/common-sqlmap.xml"/>
+    <sqlMap resource="conf/sql/board-sqlmap.xml"/>
     
 </sqlMapConfig>
